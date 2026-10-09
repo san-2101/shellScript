@@ -12,3 +12,13 @@ if [ "$var" -lt 10 ]; then
 else
 	echo "Number is greater than 10"
 fi
+
+#-----second example-----
+
+read -p "enter the file path:" filepath
+
+if [ -f $filepath ]; then
+	echo "File exists"
+else
+	echo "File doen't exists"
+fi
