@@ -13,3 +13,7 @@ echo "Hello $name"
 echo "My logged in user is $USER"
 
 # where $USER is come from env variable
+
+echo "Today Date is : $(date)"
+
+# date is pre define varible so predefine variable is used like above
