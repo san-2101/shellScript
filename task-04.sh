@@ -8,9 +8,9 @@ comment
 
 #!/bin/bash
 
-echo "the first argument is $0"
-echo "the second argument is $1"
-echo "the third argument is $2"
+echo "the 0th argument is $0"
+echo "the first argument is $1"
+echo "the second argument is $2"
 
 
 echo "total argument is $#"  # where $# is used for number count
