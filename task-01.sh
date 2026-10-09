@@ -13,6 +13,6 @@ echo "You can add more print command same like this"
 # 1. by using bash <file_name.sh>
 # 2. or we can use ./<file_name.sh> 
 # 	by using second method first give the permission to the file by using below command
-# 		"chmod 764 filename.sh"
+# 		"chmod 764 filename.sh" // this is known as numeric notation
 # 			or
-# 			"chmod u+x filename.sh " // this is used when we want to give the permission to the specfic user
+# 			"chmod u+x filename.sh " // this is used when we want to give the permission to the specfic user and known as symbolic notation
