@@ -22,3 +22,16 @@ if [ -f $filepath ]; then
 else
 	echo "File doen't exists"
 fi
+
+#--------third example--------
+
+
+read -p "Enter path of directory :" directorypath
+
+if [ -d $directorypath ]; then
+        echo "Directroy Exits"
+
+else
+        echo "Directory doesn't exits"
+fi
+
