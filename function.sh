@@ -22,4 +22,8 @@ function verify_user(){
 
 #verify_user
 
-#
+#function to get the disk space
+
+function show_disk(){
+	 df -h | awk 'NR == 2 {print $2}' 
+}

@@ -3,3 +3,4 @@
 source ./function.sh
 create_user
 verify_user
+show_disk
